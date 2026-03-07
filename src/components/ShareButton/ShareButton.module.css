@@ -1,0 +1,27 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  transition: all var(--transition);
+  font-size: 0.8rem;
+}
+
+.button:hover {
+  background: var(--bg-toggle);
+  color: var(--text-primary);
+}
+
+.copied {
+  color: var(--color-success);
+  font-weight: 600;
+  font-size: 0.8rem;
+  animation: fadeIn 0.2s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

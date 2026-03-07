@@ -1,0 +1,6 @@
+.text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-top: 0.5rem;
+}
