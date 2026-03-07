@@ -1,20 +1,26 @@
-#  Body-Mass-Index Calculator
+# BMI Calculator
 
 Deployed Project: https://bmi-calculator-rho-gray.vercel.app/
 
-<img width="619" height="559" alt="Screenshot 2025-09-17 at 1 38 47 PM" src="https://github.com/user-attachments/assets/328386c0-bae4-4987-bd86-b4afec8e0f07" />
+![BMI Calculator Screenshot](assets/screenshot.png)
 
-A simple and responsive **BMI (Body Mass Index) Calculator** built with React. This app allows you to adjust your weight and height using sliders, and it calculates your BMI dynamically as you make changes. Now you can keep track of your health in a fun way! 🎯
+A modern, responsive **BMI (Body Mass Index) Calculator** built with React and TypeScript. Adjust your weight and height using synced sliders and number inputs, get instant BMI results with a color-coded gauge, and track your history over time.
 
-## ✨ Features
+## Features
 
-- 🧠 **Real-time Calculation**: As you slide the weight and height bars, your BMI is calculated and displayed instantly—no need to hit "Calculate"!
-- 📱 **Responsive Design**: Looks great on screens of all sizes, from your smartphone 📲 to your desktop 💻.
-- 🎨 **Stylish Look**: Clean and modern design using CSS with custom properties (variables) for easy theme customization.
-- 🎛️ **Interactive Sliders**: Drag the sliders to set your weight (40-200 kg) and height (100-250 cm), with cool color changes when you hover!
+- **Real-time Calculation** — BMI updates instantly as you adjust weight and height
+- **Metric & Imperial** — Toggle between kg/cm and lbs/ft-in with seamless conversion
+- **BMI Gauge** — Color-coded gradient bar showing where your BMI falls
+- **Healthy Weight Range** — Displays the healthy weight range for your height
+- **Dark Mode** — Light/dark theme toggle, persisted across sessions
+- **History Tracking** — Save BMI entries and view a mini chart of your last 10 results
+- **Share** — Copy your BMI result to clipboard
+- **Responsive** — Works on mobile, tablet, and desktop
+- **Accessible** — ARIA labels, keyboard navigation, and screen reader support
 
-## 🛠️ Technologies Used
+## Tech Stack
 
-- ⚛️ **React**: For building the interactive user interface.
-- 🎨 **CSS**: For styling and adding responsiveness to the design.
-- 📜 **JavaScript**: For managing logic and dynamic calculations.
+- **React 18** with TypeScript
+- **CSS Modules** with custom properties for theming
+- **SVG** for the history chart (no chart library needed)
+- **localStorage** for persisting theme, unit preference, and history
