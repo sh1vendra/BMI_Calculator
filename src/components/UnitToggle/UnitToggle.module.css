@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  background: var(--bg-toggle);
+  border-radius: var(--radius-full);
+  padding: 3px;
+  gap: 2px;
+}
+
+.option {
+  padding: 6px 16px;
+  border-radius: var(--radius-full);
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all var(--transition);
+}
+
+.option.active {
+  background: var(--bg-toggle-active);
+  color: var(--text-inverse);
+}
+
+.option:hover:not(.active) {
+  color: var(--text-primary);
+}

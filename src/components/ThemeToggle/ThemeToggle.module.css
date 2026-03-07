@@ -1,0 +1,16 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: var(--bg-toggle);
+  color: var(--text-primary);
+  transition: background var(--transition), transform var(--transition);
+}
+
+.toggle:hover {
+  background: var(--bg-slider-track);
+  transform: scale(1.1);
+}
